@@ -8,7 +8,6 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:3001/api").then(async (res) => {
       const data = await res.json();
-      console.log("data", data);
       setData(data.message);
     });
   }, []);
