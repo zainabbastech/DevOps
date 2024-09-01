@@ -9,7 +9,6 @@ const app = express();
 app.use(cors());
 
 app.get("/api", (req, res) => {
-  console.log("hey");
   res.json({ message: "Hello from server!" });
 });
 
