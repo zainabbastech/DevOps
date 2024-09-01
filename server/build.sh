@@ -6,6 +6,6 @@ set -e
 echo "Installing dependencies..."
 npm install
 
-echo "Running tests..."
+echo "Running tests.."
 
 echo "Build complete."
